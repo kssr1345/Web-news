@@ -1,0 +1,80 @@
+.main-brand{
+    font-size: 60px;
+    text-align: center;
+    font-weight: normal;
+    font-family: Lobster;
+    margin-top: 60px 0 0;
+}
+.row
+{
+    display:flex;
+     align-items: stretch;
+}
+.story
+{
+    border: 1px solid #333;
+    padding: 5px;
+}
+.story-title
+{ font-weight: normal;
+    font-style: italic;
+    font-size: 30px;
+    margin: 15px;
+    text-align: center;
+
+}
+.story-img
+{
+    width: 100%;
+}
+.story-text
+{ line-height: 1.6 ;
+}
+.threequarters
+{
+    width:75%;
+}
+.navlist
+{
+    display: flex;
+    flex-direction:column;
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+.nav-items
+{   width:100%;
+    flex: 1;
+    display:flex;
+    align-items: center;
+    padding-left: 25px;
+    font-size: 25px;
+    font-family: monospace;
+
+}
+.nav-items:nth-child(1)
+{
+background-color: aqua;
+}
+.nav-items:nth-child(2)
+{
+background-color: burlywood;
+}
+.nav-items:nth-child(3)
+{
+background-color: lightseagreen;
+}
+.nav-items:nth-child(4)
+{
+background-color: violet
+}
+.nav-items:nth-child(5)
+{
+background-color: pink;
+}
+a 
+{
+    text-decoration: none;
+    color: #666;
+}
+
